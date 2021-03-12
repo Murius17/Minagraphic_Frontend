@@ -5,9 +5,30 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-size: 18px ;
+  font-family: 'Helvetica Neue' sans-serif;
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+a{text-decoration: none; font-weight: bold;}
+
+@media screen and (max-width: 480px){
+  .nav{ display: none; flex-direction: column; background: #000;}
+  .nav a{width: 100%; text-align: center; padding: 10px 0; color:#ffff}
+}
+@media screen and (min-width: 481px) and (max-width:768px){
+  .nav{ display: none; flex-direction: column; background: #000;}
+  .nav a{width: 100%; text-align: center; padding: 10px 0; color:#ffff}
+}
+@media screen and (min-width: 769px) and (max-width:1199px) {
+  .nav{ display: flex; background: #000;}
+  .nav a{width: 25%; text-align: center; padding: 10px 0; color:#ffff}
+}
+@media screen and (min-width: 1200px){
+  .nav{ display: flex; background: #000;}
+  .nav a{width: 25%; text-align: center; padding: 10px 0; color:#ffff}
 }
