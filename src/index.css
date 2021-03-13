@@ -9,7 +9,24 @@ body {
   font-size: 18px;
   font-family: "Helvetica Neue" sans-serif;
 }
+.Botao {
+  float: right;
+  background-color: #081108;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px;
+  
+}
+.Botao :hover{
+  background: rgb(10, 182, 38)
 
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
@@ -25,14 +42,27 @@ a {
   color: #ffff;
   background: #000;
 }
+.header {
+  float: left;
+  width: 100%;
+  box-shadow: 0 2px 10px;
+  background-color: rgb(250, 245, 245);
+  margin: bottom 20px;
+}
 /*pequeno Smartphones*/
 @media screen and (max-width: 480px) {
-  .header{
-    display: flex; flex-direction: column;
+  .header {
+    display: flex;
+    flex-direction: column;
     background-color: rgb(248, 246, 246);
+    width: 100%;
+    box-shadow: 0 2px 10px;
+    background-color: rgb(250, 245, 245);
+    margin: bottom 20px;
   }
   .nav {
-    display: none; flex-direction: column;
+    display: none;
+    flex-direction: column;
     order: 2;
   }
   .nav a {
@@ -41,11 +71,13 @@ a {
   .nav a:hover {
     background: rgb(10, 182, 38);
   }
-  .buttonMob{
+  .buttonMob {
     float: right;
-    order: 1; text-align: right; padding: 30px 5% 5px 0;
+    order: 1;
+    text-align: right;
+    padding: 30px 5% 5px 0;
   }
-  .endereço{
+  .endereço {
     text-align: center;
   }
   .Logo {
@@ -55,22 +87,29 @@ a {
     left: 5%;
     padding: 30px 0 15px 10%;
   }
-  .contato{
+  .contato {
     margin-left: 200px;
     float: left;
-   padding: 15px 5% 10px 20%;
-   line-height: 20px;
+    padding: 15px 5% 10px 20%;
+    line-height: 20px;
     order: 3;
     font-size: 15px;
-}
+  }
 }
 /*Medio Smartphones*/
 @media screen and (min-width: 481px) and (max-width: 768px) {
-  .header{
-    display: flex; flex-direction: column;
+  .header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    box-shadow: 0 2px 10px;
+    background-color: rgb(250, 245, 245);
+    margin: bottom 20px;
   }
   .nav {
-    display: none; flex-direction: column; order: 2;
+    display: none;
+    flex-direction: column;
+    order: 2;
   }
   .nav a {
     width: 100%;
@@ -78,9 +117,12 @@ a {
   .nav a:hover {
     background: rgb(10, 182, 38);
   }
-  .buttonMob{order: 1; text-align: right; padding: 5px 5% 5px 0;
+  .buttonMob {
+    order: 1;
+    text-align: right;
+    padding: 5px 5% 5px 0;
   }
-  .endereço{
+  .endereço {
     text-align: center;
   }
   .Logo {
@@ -90,14 +132,14 @@ a {
     left: 5%;
     padding: 30px 0 15px 10%;
   }
-  .contato{
+  .contato {
     margin-left: 200px;
     float: left;
-   padding: 15px 5% 10px 20%;
-   line-height: 20px;
+    padding: 15px 5% 10px 20%;
+    line-height: 20px;
     order: 3;
     font-size: 15px;
-}
+  }
 }
 /*Largo Smartphones ou pequenos Notebooks*/
 @media screen and (min-width: 769px) and (max-width: 1199px) {
@@ -110,17 +152,19 @@ a {
   .nav a:hover {
     background: rgb(10, 182, 38);
   }
-  .buttonMob{display: none;}
-  .endereço{
+  .buttonMob {
+    display: none;
+  }
+  .endereço {
     text-align: center;
   }
   .Logo {
-    float:left; padding: 15px 0 15px 10%; 
+    float: left;
+    padding: 15px 0 15px 10%;
   }
-  .contato{
+  .contato {
     font-size: 30px;
-   
-}
+  }
 }
 /*Telas largas*/
 @media screen and (min-width: 1200px) {
@@ -132,19 +176,19 @@ a {
   }
   .nav a:hover {
     background: rgb(10, 182, 38);
-    
   }
-  .buttonMob{display:none
+  .buttonMob {
+    display: none;
   }
-  .endereço{
+  .endereço {
     text-align: center;
   }
   .Logo {
-    float:left; padding: 15px 0 15px 10%; 
+    float: left;
+    padding: 15px 0 15px 10%;
   }
-  .contato{
+  .contato {
     font-size: 30px;
     margin-left: 100px;
-   
-}
+  }
 }
