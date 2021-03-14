@@ -9,8 +9,7 @@ export default class Address extends React.Component {
         <img className="address" src='https://w7.pngwing.com/pngs/874/257/png-transparent-whatsapp-computer-icons-computer-software-whatsapp-text-logo-whatsapp-icon.png' alt='WhatsApp de Contato' width="25" height="25"/> <strong>(xx) xxxx-xxx </strong><br/>  
         <button className="Botao" onClick >Favoritos</button>
         </div>
-
-            </div>
+         </div>
     );
   }
 }
