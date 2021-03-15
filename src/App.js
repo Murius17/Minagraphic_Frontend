@@ -10,9 +10,6 @@ function App() {
       <Header/>
       <Main/>
       <Footer/>
-      <div id="Preço">
-        Preço
-      </div>
     </div>
   );
 }

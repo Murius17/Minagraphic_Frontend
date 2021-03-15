@@ -5,17 +5,17 @@ export default class Nav extends React.Component {
   render() {
     return (
       <div className="nav">
-        <AnchorLink href="#Sobre" offset="100">
-          Sobre
+        <AnchorLink href="#Home" offset="100">
+          Home
         </AnchorLink>
-        <AnchorLink href="#Preço" offset="100">
-          Preço
+        <AnchorLink>
+          Favoritos
         </AnchorLink>
-        <AnchorLink href="#Variação" offset="100">
-          Variação
+        <AnchorLink href="#Gráficos" offset="100">
+          Gráficos
         </AnchorLink>
-        <AnchorLink href="#Contatos" offset="100">
-          Contatos
+        <AnchorLink href="#Contato" offset="100">
+          Contato
         </AnchorLink>
       </div>
     );
