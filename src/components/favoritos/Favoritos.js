@@ -1,13 +1,14 @@
 import React from "react";
+import Address from "../home/header"
+import Footer from "../home/footer"
 
-import Nav from "../header/Nav";
 
 export default class Favoritos extends React.Component{
 render () {
   return (
     <div>
-      <Nav/>
-      Este é o favorito
+      <Address/>
+      <Footer/>
     </div>
   );
 }
