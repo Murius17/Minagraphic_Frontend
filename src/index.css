@@ -5,11 +5,11 @@ body {
   -webkit-font-smoothing: antialiased;  -moz-osx-font-smoothing: grayscale;  font-size: 18px;  font-family: "Helvetica Neue" sans-serif;
 }
 .Botao {
-  float: right;  background-color: #081108;  border: none;  color: white;  padding: 15px 32px;  text-align: center;  text-decoration: none;
+  float: right; border: none;  padding: 15px 32px;  text-align: center;  text-decoration: none;
   display: inline-block;  font-size: 16px;  border-radius: 10px;  box-shadow: 0 2px 10px;
 }
 .Botao :hover {
-  background: rgb(10, 182, 38);
+  background: rgb(10, 10, 10);
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
@@ -20,10 +20,10 @@ a {
 }
 
 .nav a {
-  text-align: center;  padding: 10px 0;  color: #ffff;  background: #000;
+  text-align: center;  padding: 10px 0;  color: rgb(13, 14, 13);  background: rgb(240, 241, 240);
 }
 .header {
-  float: left;  width: 100%;  box-shadow: 0 2px 10px;  background-color: rgb(250, 245, 245);  margin: bottom 20px;
+ width: 100%;  box-shadow: 0 2px 10px;  background-color: rgb(237, 243, 236); 
 }
 /*pequeno Smartphones*/
 @media screen and (max-width: 480px) {
@@ -41,13 +41,11 @@ a {
     background: rgb(10, 182, 38);
   }
   .buttonMob {
-    float: right;    order: 1;    text-align: right;    padding: 30px 5% 5px 0;
+    float: right;    order: 1;    text-align: right;    padding: 10px 5% 5px 0;
   }
-  .endereço {
-    text-align: center;
-  }
+  
   .Logo {
-    float: left;    position: absolute;    top: 0%;    left: 5%;    padding: 30px 0 15px 10%;
+    float: left;    position: absolute;    
   }
   .contato {
     margin-left: 200px;    float: left;    padding: 15px 5% 10px 20%;    line-height: 20px;    order: 3;    font-size: 15px;
@@ -161,7 +159,7 @@ a {
     width: 25%;
   }
   .nav a:hover {
-    background: rgb(10, 182, 38);
+    background: rgb(39, 236, 39);
   }
   .buttonMob {
     display: none;
@@ -170,32 +168,33 @@ a {
     text-align: center;
   }
   .Logo {
-    float: left;    padding: 15px 0 15px 10%;
+    float: left;    padding: 10px 0 15px 10%;
+  }
+  .titulo{
+    display: flex;
   }
   .contato {
-    font-size: 30px;    margin-left: 100px;
+    font-size: 30px;    margin-left: 1020px;
   }
   .footer {
     display: flex;  width: 100%;    height: 100px;    position: relative;   bottom: 0;
     left: 0;    box-shadow: 0 2px 10px;    background-color: rgb(248, 246, 246);
   }
 }
-.contatosFooter {
-  display: flex;  text-align: center;  color: rgb(12, 12, 12);  float: right;  margin-left: 35%;
-}
+
 .LogoFooter {
   padding-top: 10px;  margin-left: 10px;  display: flex;  float: left;
 }
 .direitosFooter {
-  display: flex;  align-items: center;  margin-left: 40%;  padding-top: 60px;  font-size: 15px;
+  display: flex;  align-items: center;  margin-left: 32%;  padding-top: 75px;  font-size: 15px;
 }
-.nomeFooter {
-  display: flex;  padding-top: 30px;
+.tituloFooter{
+  display: flex; padding-top: 25px;
 }
 .Contato{
   display: flex;  width: 50%;  margin: 20px 25%;  flex-direction: column;
 }
-.Contato h1{color:black; text-align: center; font-size: 30px;}
+.Contato h1{color:rgb(15, 14, 14); text-align: center; font-size: 30px;}
 .Contato input{margin: 6px 0; height: 40px; }
 .Contato input[type="text"],
 .Contato input[type="tel"],
